@@ -2,6 +2,9 @@ class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
         
+        // start by taking a number with 0 
+        // binary search 
+        
         int st = 0;
         int end = nums.size() - 1;
 
